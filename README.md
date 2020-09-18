@@ -1,5 +1,7 @@
 # Shell
 
+[![Maintenance][maintain-badge]][maintain-act] [![PRs Welcome][pr-badge]][pr-act] [![Build Status][travisci-badge]][travisci-builds]
+
 ## Introduction
 
 This a Unix shell similar to `sh`, `bash` and `zsh`.
@@ -126,3 +128,11 @@ This shell might encounter two types of error:
     sudo apt install build-essential python python-pexpect libreadline-dev flex valgrind
     ```
 2. Use `make check` to run tests.
+
+
+[travisci-badge]: https://travis-ci.com/HongyuHe/shell.svg?branch=main
+[travisci-builds]: https://travis-ci.com/HongyuHe/shell
+[maintain-badge]: https://img.shields.io/badge/Maintained%3F-yes-green.svg
+[maintain-act]: https://github.com/HongyuHe/shell/graphs/commit-activity
+[pr-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
+[pr-act]: http://makeapullrequest.com
